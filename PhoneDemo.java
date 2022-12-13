@@ -467,7 +467,6 @@ class PhoneDemo {
 					
 					String numberc = "";
 					// if the number exist in our record it will show otherwise we will call directly
-					if(file.isFile()) {
 						if(file.isFile()) { 
 						// check if file is avaiavle so we read it to array list
 						ois = new ObjectInputStream(new FileInputStream(file));
@@ -505,9 +504,6 @@ class PhoneDemo {
 						oos.writeObject(st);
 						oos.close();
 						
-					} else {
-						System.out.println("File not exist..");
-					}
 				break;
 				case 11:  // recently called
 					if(log.isFile()) {
