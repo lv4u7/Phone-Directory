@@ -2,7 +2,7 @@
 Project </br>
 <b>Phone Directory </b></br>
  </br>
-This is a simple application devoloped for creating phone directory
+This is a simple application developed for creating phone directory
 using ArrayList and it has text file as database from where
 it read and write the data which will be FIRST and LAST NAME and
 PHONE NUMBER.
